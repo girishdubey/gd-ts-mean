@@ -1,0 +1,19 @@
+<div style="max-width: 600px; margin: 0 auto;">
+    
+    <h1>
+      User Profile
+    </h1>
+    
+    <div *ngIf="user">
+        <input [(ngModel)]="user.firstName" placeholder="First Name">
+        <input [(ngModel)]="user.lastName" placeholder="Last Name">
+        <input [(ngModel)]="user.email" autocomplete="false" placeholder="Email">
+    </div>
+    
+    <div class="clearfix">
+      <div class="float-right">
+        <button (click)="doChange()" color="primary">Save Changes</button>
+      </div>
+    </div>
+  
+</div>

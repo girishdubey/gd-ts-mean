@@ -1,0 +1,17 @@
+<div style="max-width: 600px; margin: 0 auto;">
+    
+    <h1>
+      Sign Up
+    </h1>
+  
+      <input  [(ngModel)]="newUser.firstName" placeholder="First Name">
+      <input  [(ngModel)]="newUser.lastName" placeholder="Last Name">
+      <input  [(ngModel)]="newUser.email" autocomplete="false" placeholder="Email">
+      <input  [(ngModel)]="password" autocomplete="new-password" type="password" placeholder="Password">
+    <div class="clearfix">
+      <div class="float-right">
+        <button (click)="doSignUp()" color="primary">Sign Up</button>
+      </div>
+    </div>
+    
+</div>
