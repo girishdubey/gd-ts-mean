@@ -4,3 +4,4 @@ npm-debug.log
 dist
 coverage
 .log
+package-lock.json
